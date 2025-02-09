@@ -18,6 +18,8 @@ This Python script helps recover and convert Insta360 INSP (3D photo) files, whi
 
 This project addresses the frustrating issue of SD card failures interrupting the transfer of Insta360 INSP files.  These files, used for 3D photos, are crucial for post-processing.  Often, when recovery is attempted, these damaged INSP files are salvaged as stereoscopic JPG images, losing the crucial metadata that defines them as 3D photos. This script uses a known good "template" INSP file, likely one taken with the same camera settings, to help reconstruct the missing metadata and restore the files to their proper INSP format. It offers both single file and directory processing for maximum flexibility.
 
+This has been tested on an Insta360 X4 running Insta360 firmware v1.5.3
+
 ## Requirements
 
 *   Python 3.x
