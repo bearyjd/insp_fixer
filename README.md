@@ -46,7 +46,7 @@ tqdm
 ### Single File Conversion
 
 ```bash
-python insp_convert.py path/to/image.jpg output_directory/ path/to/template.insp -v
+python insp_fixer.py path/to/image.jpg output_directory/ path/to/template.insp -v
 ```
 
 *   `path/to/image.jpg`: Path to the damaged INSP file (recovered as a stereoscopic JPG).
@@ -57,7 +57,7 @@ python insp_convert.py path/to/image.jpg output_directory/ path/to/template.insp
 ### Directory Conversion
 
 ```bash
-python insp_convert.py path/to/input_directory/ output_directory/ path/to/template.insp -v
+python insp_fixer.py path/to/input_directory/ output_directory/ path/to/template.insp -v
 ```
 
 *   `path/to/input_directory/`: Path to the directory containing the damaged INSP files (recovered as stereoscopic JPGs).
