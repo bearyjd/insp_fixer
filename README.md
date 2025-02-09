@@ -1,4 +1,3 @@
-```markdown
 # Insta360 INSP File Recovery and Conversion
 
 This Python script helps recover and convert Insta360 INSP (3D photo) files, which are in a proprietary format.  It's particularly useful if your SD card fails during transfer, leaving your INSP files incomplete or corrupted. This tool leverages a template INSP file to reconstruct the damaged files.  **Specifically, it addresses the common scenario where damaged INSP files are recovered as stereoscopic JPG images.**
@@ -37,7 +36,6 @@ tqdm
 *   **Template-Based Reconstruction:** Uses a healthy INSP file as a template to reconstruct damaged data.
 *   **Single File and Directory Processing:**  Process individual INSP files or entire directories of them.
 *   **Command-Line Interface:**  Easy-to-use command-line interface accepts either a file or directory path as input.
-*   **Improved Progress Reporting:**  Clear progress bar for single file processing using `tqdm`.
 *   **Clearer Validation Messages:**  More informative error and validation messages.
 *   **Robust Path Handling:** Prevents accidental overwriting of files by implementing checks and safeguards.
 
@@ -67,11 +65,11 @@ python insp_convert.py path/to/input_directory/ output_directory/ path/to/templa
 
 ## Installation
 
-1.  **Clone the repository (optional):** If you are contributing or want to keep track of changes, clone the repository.
+1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/your-username/insp_convert.git](https://www.google.com/search?q=https://github.com/your-username/insp_convert.git)  # Replace with your repo URL
-    cd insp_convert
+    git clone [https://github.com/bearyjd/insp_fixer.git](https://www.google.com/search?q=https://github.com/bearyjd/insp_fixer.git)
+    cd insp_fixer
     ```
 
 2.  **Install the requirements:**
@@ -86,5 +84,5 @@ Contributions are welcome!  Please open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0.  See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0.  See the [LICENSE](LICENSE) file for details.  
 ```
